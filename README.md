@@ -1,4 +1,3 @@
-Sure — here’s a clean, **ready-to-copy** plain-text version of your README (no emojis, no special symbols):
 
 ---
 
