@@ -1,16 +1,22 @@
-# Ignore all raw CSV files
-data/raw/*.csv
+# Jupyter checkpoints
+.ipynb_checkpoints/
 
-# Keep the compressed version
-!data/raw/raw_data.zip
+# Python cache
+__pycache__/
+*.pyc
 
-# Ignore other large/intermediate data files
-*.pkl
-*.npy
-*.npz
-*.xlsx
-
-# Ignore OS or environment files
+# OS files
 .DS_Store
 Thumbs.db
-__pycache__/
+
+# Large or unneeded files
+data/raw/*.csv
+data/raw/*.txt
+data/raw/*.xlsx
+
+# Allow zipped raw data
+!data/raw/*.zip
+
+# VSCode / IDE
+.vscode/
+.idea/
